@@ -7,7 +7,7 @@ A program with the purpose of being able to calculate various types of formulas 
 
 * main.py file is the main file with the code
 
-* Script written in most recent Python 3.10 - Download [Here.](https://www.python.org)
+* Script written in with HTML, CSS and JavaScript
 
 ### See the same project in Python [Here.](https://github.com/ArcherEvil/Polygon-Calculator--Python-)
 ## Authors
