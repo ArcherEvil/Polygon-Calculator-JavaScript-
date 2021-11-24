@@ -7,7 +7,9 @@
         <meta name="description" content="A Website where you can Calculate Polygons">
         <meta name="author" content="Archer">
         <link rel="stylesheet" type="text/css" href="main.css">
-        <script src="code.js" defer></script>
+        <link rel="stylesheet" type="text/css" href="buttons.css">
+        <link rel="stylesheet" type="text/css" href="box.css">
+        <link rel="stylesheet" type="text/css" href="hamburguer_menu.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
@@ -15,10 +17,31 @@
             <main>
                 <div class="mainbox">
                     <div class="menubar">
+                        <div class="menu-btn">
+                            <div class="menu-btn__burger">
 
+                            </div>
+                        </div>
+                        <button type="button"  style="opacity: 0%;" class="menubutton" onclick="clicked(this)">
+                            Triangle
+                        </button>
+                        <button type="button" style="opacity: 0%;" class="menubutton" onclick="clicked(this)">
+                            Square
+                        </button>
+                        <button type="button" style="opacity: 0%;" class="menubutton" onclick="clicked(this)">
+                            Pentagon
+                        </button>
+                        <button type="button" style="opacity: 0%;" class="menubutton" onclick="clicked(this)">
+                            Hexagon
+                        </button>
+                        <button type="button" style="opacity: 0%;" class="menubutton" onclick="clicked(this)">
+                            Octagon
+                        </button>
+                    <script src="main.js"></script>
+                    <script src="code.js" defer></script>
                     </div>
                     <div class="boxcontent">
-                        
+                        <p disabled id="content-title"></p>
                     </div>
                 </div>
             </main>

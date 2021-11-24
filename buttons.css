@@ -1,0 +1,17 @@
+.menubutton {
+    width: 100%;
+    height: 5vw;
+    border-radius: 0px;
+    border: none;
+    background: none;
+    color: aliceblue;
+    font-size: 2vw;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 200ms;
+}
+
+.menubutton:hover {
+    color: #2F323A;
+    background: rgb(241, 241, 241);
+}
