@@ -1,4 +1,4 @@
-# Polygon-Calculator in Python
+# Polygon-Calculator in Javascript
 A program with the purpose of being able to calculate various types of formulas on various types of polygons.
 
 ## Quick Notes
