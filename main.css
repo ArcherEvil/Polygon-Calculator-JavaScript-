@@ -1,0 +1,45 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* The Primary Grid (Main and footer) */
+.maingrid {  /* rank 1 */
+    background: url(Images/background.jpg);
+    background-size: 270vh;
+    width: 100vw;
+    height: 150vh;
+    display: grid;
+    grid-template-rows: 1fr 150px;
+}
+
+/** Main Box **/
+
+.mainbox { /* rank 1 */
+    margin: 8vw auto 5vw auto;
+    background-color: aliceblue;
+    width: 90vw;
+    display: grid;
+    grid-template-columns: 25% 1fr;
+    height: 50vw;
+    border-radius: 20px;
+}
+
+.menubar {
+    border-radius: 20px 0px 0px 20px;
+    background-color: #2F323A;
+}
+
+
+
+
+/** Footer*/
+
+footer { /* rank 1 */
+    background-color:#0c1f2e;
+}
