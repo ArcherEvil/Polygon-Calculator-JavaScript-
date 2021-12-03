@@ -3,9 +3,7 @@ A program with the purpose of being able to calculate various types of formulas 
 
 ## Quick Notes
 
-* I will use, tkinter as the main library to conduct this project
-
-* main.py file is the main file with the code
+* Index.html file is the main file with the code
 
 * Script written in with HTML, CSS and JavaScript
 

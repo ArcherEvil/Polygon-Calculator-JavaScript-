@@ -37,14 +37,37 @@
                         <button type="button" style="opacity: 0%;" class="menubutton" onclick="clicked(this)">
                             Octagon
                         </button>
-                    <script src="main.js"></script>
-                    <script src="code.js" defer></script>
                     </div>
-                    <div class="boxcontent">
+                    <div class="boxcontent" id="boxcontent">
                         <p disabled id="content-title"></p>
+                        <img class="menuimg" id="img" src="Images/triangle.png" alt="A Triangle Image.">
+                        <div class="entry" id="entry1">
+                            <p class="entrytext" id="t0">Side A: </p>
+                            <input class="inputs" id="entry" type="text" placeholder="input your text">
+                        </div>
+                        <div class="entry" id="entry2">
+                            <p class="entrytext" id="t1">Side B: </p>
+                            <input class="inputs" id="entry" type="text" placeholder="input your text">
+                        </div>
+                        <div class="entry" id="entry3">
+                            <p class="entrytext" id="t2">Hipoteneuse: </p>
+                            <input class="inputs" id="entry" type="text" placeholder="input your text">
+                        </div>
+                        <div class="entry" id="entry4">
+                            <p class="entrytext" style="font-size: 2.5vw;">Area: </p>
+                            <p class="results" id="area">0</p>
+                        </div>
+                        <div class="entry" id="entry5">
+                            <p class="entrytext" style="font-size: 2.5vw;">Perimeter: </p>
+                            <p class="results" id="perimeter">0</p>
+                        </div>
+                        <button class="calculate-button" onclick="calculate()">Calculate</button>
                     </div>
                 </div>
             </main>
+            <script src="calculate.js" defer></script>
+            <script src="menubar.js" defer></script>
+            <script src="buttons.js" defer></script>
             <footer>
 
             </footer>
